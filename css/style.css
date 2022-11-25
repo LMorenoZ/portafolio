@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+p, a, h5 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+h1, h4 {
+    color: #2299aa !important;
+    font-weight: 600;
+}
+
+.navigation {
+    width: 100%;
+    position: relative;
+    min-height: 60px;
+    z-index: 1000;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    color: #2299aa !important;
+    font-size: 2rem !important;
+}
+
+.navbar-light, .navbar-nav, .nav-link {
+    color: #333333 !important;
+    font-weight: 600 !important;
+    padding-left: 1.2rem !important;
+    padding-right: 1.2rem !important;
+}
+
+/* Buttons */
+.btn {
+    background-color: #2299aa !important;
+    border-radius: 2rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+/* Banner */
+.banner, .algo, #pricing {
+    background-color: #eae7dc !important;
+}
+
+.icon {
+    color: #ffffff;
+    background-color: #2299aa;
+    height: 50px;
+    max-width: 50px;
+    width: 100% !important;
+    margin: auto;
+    padding: 16px;
+    background-size: 20%;
+    border-radius: 28px;
+}
+
+/* hr */
+hr {
+    margin-left: 4rem !important;
+    margin-right: 4rem !important;
+}
+
+.imagen {
+    height: 70vh !important;
+    width: 50vw  !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
